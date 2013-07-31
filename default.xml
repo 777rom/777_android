@@ -12,6 +12,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="777"
+           fetch="git://github.com/777rom/" />
+
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"
@@ -21,7 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="777_android" remote="777" revision="master" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
