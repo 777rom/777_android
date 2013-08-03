@@ -13,7 +13,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="777"
-           fetch="git://git@github.com/777rom/" />
+           fetch="git://github.com/777rom/" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
