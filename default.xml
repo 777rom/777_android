@@ -13,7 +13,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="777"
-           fetch="git://github.com/777rom/" />
+           fetch="git://git@github.com/777rom/" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -23,7 +23,6 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="android" name="777_android" remote="777" revision="master" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -47,8 +46,8 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
-<project path="device/samsung/maguro" name="777_device_samsung_maguro" remote="777" revision="master" />
-<project path="device/samsung/tuna" name="777_device_samsung_tuna" remote="777" revision="master" />
+  <project path="device/samsung/maguro" name="777_device_samsung_maguro" remote="777" revision="master" />
+  <project path="device/samsung/tuna" name="777_device_samsung_tuna" remote="777" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />

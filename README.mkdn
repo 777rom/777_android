@@ -1,6 +1,6 @@
-                      ###############
-                          777-Rom 
-                      ###############
+                             ###############
+                                 777-Rom 
+                             ###############
 
 
 Getting Started
@@ -15,7 +15,7 @@ To initialize your local repository using the CyanogenMod/777 trees, use a comma
 
 Then to sync up:
 
-    repo sync -j8
+    repo sync -j14
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
