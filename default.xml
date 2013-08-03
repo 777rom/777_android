@@ -25,7 +25,6 @@
   </project>
 
   <project path="android" name="777_android" remote="777" revision="master" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
